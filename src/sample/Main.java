@@ -20,13 +20,6 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("login.fxml"));
         primaryStage.setTitle("Project1");
-       // List<String> dictionary = Arrays.asList("laith", "badaha","l","a","i","t" ,"h" ,"lai" ,"th" );
-        ////getText()
-        // input string
-       // String string = "laithbadaha";
-       // Controller.wordBreak(Controller.dictionary, string, "");
-
-
         primaryStage.setScene(new Scene(root, 520, 340));
         primaryStage.show();
     }

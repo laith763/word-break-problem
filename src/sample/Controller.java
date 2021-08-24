@@ -23,6 +23,7 @@ public class Controller implements Initializable {
     @FXML
     private TextField dictionatyTextFild;//save in dictionaty dont forget
 
+
     @FXML
     public TextField stringTextFild;
 
@@ -91,7 +92,7 @@ public class Controller implements Initializable {
 
     }
     @FXML
-     public void showAWordBreak() {// هون ما تنسى تعدل عليهم بعد ما ترجع من العرس
+     public void showAWordBreak() {
 
         if (!string.isEmpty() && !dictionary.isEmpty() )
         {
